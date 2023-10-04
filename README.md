@@ -26,9 +26,11 @@
 
 {Make a list of websites that you found helpful in this project}
 
+- [SQLite Website](https://www.sqlite.org/index.html)
+- [SQLite Databases With Python - Full Course](https://www.youtube.com/watch?v=byHcYRpMgI4)
+- [SQLite Tutorial](https://www.sqlitetutorial.net)
+- [Python Docs - sqlite3 Library Documentation](https://docs.python.org/3.8/library/sqlite3.html)
 - [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
-
 # Future Work
 
 {Make a list of things that you need to fix, improve, and add in the future.}
