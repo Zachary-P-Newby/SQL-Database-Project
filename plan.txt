@@ -1,0 +1,8 @@
+Users will use a GUI to search for a recipie by name or filter them based on attributes,
+and the program will access the the database and return results based on user's input.
+
+1. User Starts program
+2. Enters requirments
+3. Program access database
+4. retrieves data based on requirments
+5. Displays data to user. (In interactable screen/window?)

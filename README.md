@@ -8,6 +8,10 @@
 
 {Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running, a walkthrough of the code, and a view of how created the Relational Database.}
 
+Users will use a GUI to search for a recipie by name or filter them based on attributes,
+and the program will access the the database and return results based on user's input.
+
+
 [Software Demo Video](http://youtube.link.goes.here)
 
 # Relational Database
@@ -18,7 +22,9 @@
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+ - VScode - Text Editor
+ - Python - Programming Language
+ - SQLite3 Python Library (bulit in)
 
 {Describe the programming language that you used and any libraries.}
 

@@ -1,0 +1,8 @@
+{
+    "Prettier-SQL.commaPosition": "before",
+    "prettier.useTabs": true,
+    "sqltools.codelensLanguages": [
+        "sql",
+        "sqlite3"
+    ]
+}
