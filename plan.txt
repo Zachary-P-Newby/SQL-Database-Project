@@ -6,3 +6,20 @@ and the program will access the the database and return results based on user's 
 3. Program access database
 4. retrieves data based on requirments
 5. Displays data to user. (In interactable screen/window?)
+
+
+
+Recipe Columns:
+PrimaryKey
+Author - creator of recipe
+Name - Name of recipe
+Ingredients - List of ingredients (If ----- in Ingredients list)
+Time - How long it takes to make (Total)
+Vegan
+Meat
+Diary
+Wheat
+Nuts
+
+Users search database based on columns, selects recipe, program inputs PrimaryKey into a dictionary to retrieve instructions
+Alternatively we place instructions in column in list
