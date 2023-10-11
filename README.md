@@ -12,9 +12,7 @@ and the program will access the the database and return results based on user's 
 
 # Relational Database
 
-{Describe the relational database you are using.}
-
-{Describe the structure (tables) of the relational database that you created.}
+The Cookbook database consists of a single table called 'recipes', with coulumns for the author, name, source, total time, ingredients, directions, and nutrition facts of the recipe. There is also a searchIngredients coulum that lists the ingredients in a string that is optimized for searching by ingredient. There also coulumns for whether or not the recipe is vegan or contains certain ingredients like fish, eggs, or meat. These coulumns allow the user to catagorize the recipes by class, and filter based in ingridents.
 
 # Development Environment
 
@@ -38,10 +36,11 @@ and the program will access the the database and return results based on user's 
 - [SQLite Docs](https://www.sqlite.org/docs.html)
 - [Is it possible to save a list of values into a SQLite column?](https://stackoverflow.com/questions/1517771/is-it-possible-to-save-a-list-of-values-into-a-sqlite-column)
 - [Allrecipes.com](https://www.allrecipes.com)
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
+- [Tasty.com](https://tasty.co)
+- [40 Mouthwatering Vegan Recipes!](https://www.feastingathome.com/vegan-dinner-recipes/)
+- [15 Easy Vegan Recipes for Beginners](https://www.allrecipes.com/gallery/easy-vegan-recipes/)
+- [Datatypes In SQLite](https://www.sqlite.org/datatype3.html)
+- [Store boolean value in SQLite](https://stackoverflow.com/questions/843780/store-boolean-value-in-sqlite)
 
 # Recepie Sources
 - [Basic Biscuits](https://www.allrecipes.com/recipe/20075/basic-biscuits/)
@@ -49,21 +48,21 @@ and the program will access the the database and return results based on user's 
 - [Simple Macaroni and Cheese](https://www.allrecipes.com/recipe/238691/simple-macaroni-and-cheese/)
 - [Buttered Noodles](https://www.allrecipes.com/recipe/244458/buttered-noodles/)
 - [Simple Broiled Haddock](https://www.allrecipes.com/recipe/232906/simple-broiled-haddock/)
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
+- [Homemade Black Bean Veggie Burgers](https://www.allrecipes.com/recipe/85452/homemade-black-bean-veggie-burgers/)
+- [The Fluffiest Vegan Pancakes](https://tasty.co/recipe/the-fluffiest-vegan-pancakes)
+- [Cozy Chicken And Dumplings](https://tasty.co/recipe/cozy-chicken-and-dumplings)
+- [Traditional Sauerbraten](https://www.allrecipes.com/recipe/221361/traditional-sauerbraten/)
+- [Wiener Schnitzel](https://www.allrecipes.com/recipe/78117/wienerschnitzel/)
+- [Scalloped Potatoes](https://tasty.co/recipe/scalloped-potatoes)
+- [Easy Fish Tacos](https://tasty.co/recipe/easy-fish-tacos)
+- [One Bowl Chocolate Chip Banana Bread](https://tasty.co/recipe/one-bowl-chocolate-chip-banana-bread)
+- [Pizza Bread Bowl](https://tasty.co/recipe/pizza-bread-bowl)
+- [Vegan Shepards Pie](https://www.feastingathome.com/vegan-shepherds-pie-html/)
+- [Couscous with Olives and Sun-Dried Tomato](https://www.allrecipes.com/recipe/232210/couscous-with-olives-and-sun-dried-tomato/)
+- [Ultimate Tofu Breakfast Burrito Bowls](https://www.allrecipes.com/recipe/256021/ultimate-tofu-breakfast-burrito-bowls/)
+- [Ginger Veggie Stir-Fry](https://www.allrecipes.com/recipe/24712/ginger-veggie-stir-fry/)
+- [Easy Vegan Pasta with Kale and Chickpeas](https://www.allrecipes.com/recipe/260579/easy-vegan-pasta-with-kale-and-chickpeas/)
+- [Cookies & Cream Truffles](https://tasty.co/recipe/cookies-cream-truffles-easy-dessert)
 # Future Work
 
 {Make a list of things that you need to fix, improve, and add in the future.}
