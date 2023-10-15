@@ -4,7 +4,7 @@ def listAllRecipes():
     """
     Prints out all recipes with their id and basic info to the console
     """
-    connection = sqlite3.connect("..\databases\\cookbook.db")
+    connection = sqlite3.connect("databases\\cookbook.db")
     cursor = connection.cursor()
     cursor.execute("SELECT id, name, author, source, totalTime, vegan FROM recipes")
     result = cursor.fetchall()
@@ -21,7 +21,7 @@ def printRecipe(id = 1):
     Prints out recipe by id to the console,
     Including name, author, url, ingrideients, total prep time, directions, and nutrition facts
     """
-    connection = sqlite3.connect("..\databases\\cookbook.db")
+    connection = sqlite3.connect("databases\\cookbook.db")
     cursor = connection.cursor()
 
     cursor.execute(f"""SELECT name, author, source, ingredients, totalTime, directions, nutritionFacts FROM recipes WHERE id like '{id}'""")
@@ -40,7 +40,7 @@ def listVeganRecipes():
     """
     Returns all vegan recipes and prints them to the console
     """
-    connection = sqlite3.connect("..\databases\\cookbook.db")
+    connection = sqlite3.connect("databases\\cookbook.db")
     cursor = connection.cursor()
 
     cursor.execute("SELECT id, name, author, source, totalTime FROM recipes WHERE vegan LIKE 'yes'")
@@ -57,7 +57,7 @@ def listNonVeganRecipes():
     """
     Returns all non-vegan recipes and prints them to the console
     """
-    connection = sqlite3.connect("..\databases\\cookbook.db")
+    connection = sqlite3.connect("databases\\cookbook.db")
     cursor = connection.cursor()
 
     cursor.execute("SELECT id, name, author, source, totalTime FROM recipes WHERE vegan LIKE 'No'")
@@ -99,7 +99,7 @@ def listAllWithSubstance(substance = "wheat"):
     """
     Lists all recipes with the specified substance, ex. Wheat, Meat, Dairy, Fish
     """
-    connection = sqlite3.connect("..\databases\\cookbook.db")
+    connection = sqlite3.connect("databases\\cookbook.db")
     cursor = connection.cursor()
 
     if substance == "meat":
@@ -156,7 +156,7 @@ def listAllWithOutSubstance(substance = "wheat"):
     """
     Lists all recipes without the specified substance, ex. Wheat, Meat, Dairy, Fish
     """
-    connection = sqlite3.connect("..\databases\\cookbook.db")
+    connection = sqlite3.connect("databases\\cookbook.db")
     cursor = connection.cursor()
 
     if substance == "meat":
@@ -218,7 +218,7 @@ def searchForIngredient():
     ingredient = ingredient.lower()
 
     if ingredient != "x":
-        connection = sqlite3.connect("..\databases\\cookbook.db")
+        connection = sqlite3.connect("databases\\cookbook.db")
         cursor = connection.cursor()
 
         cursor.execute(f"SELECT id, name, author, source, totalTime FROM recipes WHERE searchIngredients LIKE '%{ingredient}%'")

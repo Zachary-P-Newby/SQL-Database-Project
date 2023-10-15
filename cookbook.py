@@ -1,10 +1,11 @@
 from functions import *
 
-welcomeMessage = """
+print("""
+      
 Welcome to Zach's digital cookbook!
-We've got an assortment
+We've got an assortment of 20 recipes including healthy vegan options.
 Enter a number to select an option.
-"""
+    """)
 
 running = True
 
@@ -62,7 +63,7 @@ def selectOption():
 
     
 while running:
-    print(""*5)
+    print(""*3)
 
     forward = selectOption()
 

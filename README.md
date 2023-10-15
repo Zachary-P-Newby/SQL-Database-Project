@@ -2,7 +2,9 @@
 
 Zach's digital cookbook is a database containing various receipies found online and stored in here for easy access. You can browse through the database, search by an attribute such as a specific ingredient ingredient, and access the cooking directions to either display to the screen or print out.
 
-[Software Demo Video](http://youtube.link.goes.here)
+# **To use it run cookbook.py**
+
+[Software Demo Video](https://youtu.be/J7BOYUaVqBU)
 
 # Relational Database
 
@@ -14,7 +16,8 @@ The Cookbook database consists of a single table called 'recipes', with coulumns
  - Python - Programming Language
  - SQLite3 Python Library (bulit in)
 
-{Describe the programming language that you used and any libraries.}
+I used the python programming language and the SQLite 3 library to create the program, and developed it in VScode
+
 
 # Useful Websites
 
@@ -60,7 +63,4 @@ The Cookbook database consists of a single table called 'recipes', with coulumns
 # Future Work
 
 - Add GUI
-- Add new reciipes
-
-
-- [Web Site Name](http://url.link.goes.here) - Spare element, Remove this
+- Add new recipes
