@@ -2,12 +2,6 @@
 
 Zach's digital cookbook is a database containing various receipies found online and stored in here for easy access. You can browse through the database, search by an attribute such as a specific ingredient ingredient, and access the cooking directions to either display to the screen or print out.
 
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running, a walkthrough of the code, and a view of how created the Relational Database.}
-
-Users will use a GUI to search for a recipie by name or filter them based on attributes,
-and the program will access the the database and return results based on user's input.
-
-
 [Software Demo Video](http://youtube.link.goes.here)
 
 # Relational Database
@@ -36,7 +30,7 @@ The Cookbook database consists of a single table called 'recipes', with coulumns
 - [SQLite Docs](https://www.sqlite.org/docs.html)
 - [Is it possible to save a list of values into a SQLite column?](https://stackoverflow.com/questions/1517771/is-it-possible-to-save-a-list-of-values-into-a-sqlite-column)
 - [Allrecipes.com](https://www.allrecipes.com)
-- [Tasty.com](https://tasty.co)
+- [Tasty.com](https://tasty.co) - Nutrition facts display format inspiration
 - [40 Mouthwatering Vegan Recipes!](https://www.feastingathome.com/vegan-dinner-recipes/)
 - [15 Easy Vegan Recipes for Beginners](https://www.allrecipes.com/gallery/easy-vegan-recipes/)
 - [Datatypes In SQLite](https://www.sqlite.org/datatype3.html)
@@ -65,11 +59,8 @@ The Cookbook database consists of a single table called 'recipes', with coulumns
 - [Cookies & Cream Truffles](https://tasty.co/recipe/cookies-cream-truffles-easy-dessert)
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-
-- Item 1
-- Item 2
-- Item 3
+- Add GUI
+- Add new reciipes
 
 
 - [Web Site Name](http://url.link.goes.here) - Spare element, Remove this
